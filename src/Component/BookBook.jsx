@@ -298,7 +298,7 @@ function BookBook() {
                   type="text"
                   placeholder="اسمت چیه"
                 ></input>
-                <p className="error-modal">This field is required.</p>
+                <p className="error-modal">پر کردن این فیلد اجباری است</p>
               </span>
 
               <span>
@@ -311,7 +311,7 @@ function BookBook() {
                   type="text"
                   placeholder="فامیلیت"
                 ></input>
-                <p className="error-modal ">This field is required.</p>
+                <p className="error-modal ">پر کردن این فیلد اجباری است</p>
               </span>
 
               <span>
@@ -324,7 +324,7 @@ function BookBook() {
                   type="tel"
                   placeholder="با چی بهت زنگ بزنیم"
                 ></input>
-                <p className="error-modal">This field is required.</p>
+                <p className="error-modal">پر کردن این فیلد اجباری است</p>
               </span>
 
               <span>
@@ -337,7 +337,7 @@ function BookBook() {
                   type="number"
                   placeholder="چقدر پیر شدی؟"
                 ></input>
-                <p className="error-modal ">This field is required.</p>
+                <p className="error-modal ">پر کردن این فیلد اجباری است</p>
               </span>
             </div>
 
@@ -352,7 +352,7 @@ function BookBook() {
                   type="email"
                   placeholder="  ...  اونی که توش @ داره"
                 ></input>
-                <p className="error-modal">This field is required.</p>
+                <p className="error-modal">پر کردن این فیلد اجباری است</p>
               </span>
 
               <span>
@@ -365,7 +365,7 @@ function BookBook() {
                   type="text"
                   placeholder="کجا بفرستیم کتاب رو "
                 ></input>
-                <p className="error-modal ">This field is required.</p>
+                <p className="error-modal ">پر کردن این فیلد اجباری است</p>
               </span>
             </div>
 
@@ -380,7 +380,7 @@ function BookBook() {
                   type="text"
                   placeholder="محل سکونتت"
                 ></input>
-                <p className="error-modal">This field is required.</p>
+                <p className="error-modal">پر کردن این فیلد اجباری است</p>
               </span>
 
               <span>
@@ -393,7 +393,7 @@ function BookBook() {
                   type="text"
                   placeholder="کد پستی"
                 ></input>
-                <p className="error-modal ">This field is required.</p>
+                <p className="error-modal ">پر کردن این فیلد اجباری است</p>
               </span>
             </div>
 
@@ -403,7 +403,7 @@ function BookBook() {
             </span>
 
             <div className="reserve-button">
-              <button onClick={confirmBooking}>Reserve Now</button>
+              <button onClick={confirmBooking}>ثبت نهایی</button>
             </div>
           </form>
         </div>
